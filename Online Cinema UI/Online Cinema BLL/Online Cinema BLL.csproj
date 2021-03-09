@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Online_Cinema_BLL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Online Cinema Core\Online Cinema Core.csproj" />
+    <ProjectReference Include="..\Online Cinema Domain\Online Cinema Domain.csproj" />
+  </ItemGroup>
+
+</Project>
